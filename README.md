@@ -6,5 +6,12 @@ An AI model can be represented as a graph, where a node is a tensor operation (e
 A layout configuration control how tensors in the graph are laid out in the physical memory, by specifying the dimension order of each input and output of an operation node.
 A tile configuration controls the tile size of each fused subgraph.
 
+## Problen Statement 
+
+We have very large graph as input. How to design learning model and algorithm that can fit into gpu memory? 
+
+## Data Description
+
+
 ## Related Topics
 [**What is a TPU**](https://jax.readthedocs.io/en/latest/pallas/tpu.html#what-is-a-tpu)
